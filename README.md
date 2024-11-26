@@ -1,37 +1,45 @@
 # NodeJS-testing
 
-POWERSHELL - Windows
+## Requisitos
 
-Requisitos:
+Antes de empezar, asegúrate de tener instalados los siguientes programas:
 
-- git
+- **git**
+- **fnm** (package manager)
+- **Node.js** (instalado en tu máquina)
 
-- fnm package manager
+## Uso
 
-- Node JS instalado
+### Iniciar Servidor
 
-Uso:
+1. **(Recomendado)** Crear un ambiente de desarrollo con el siguiente comando en PowerShell:
 
-    Iniciar Servidor
+    ```powershell
+    fnm env --use-on-cd | Out-String | Invoke-Expression
+    ```
 
-        (Recomendado)
-        Crear un ambiente de desarrollo con: fnm env --use-on-cd | Out-String | Invoke-Expression
-            
-            Nota (Con cada nueva terminal se tiene que usar este comando)
+    **Nota:** Con cada nueva terminal que abras, es necesario ejecutar este comando para activar el ambiente.
 
+2. Dentro de la carpeta del proyecto, ejecutar el siguiente comando para iniciar el servidor:
 
-        Dentro de la carpeta del proyecto ejecutar el comando: node server.js
+    ```bash
+    node server.js
+    ```
 
-        Dirijirse en un navegador a la dirección: localhost:3000
+3. Una vez que el servidor esté en funcionamiento, abre tu navegador y dirígete a la siguiente URL:
 
-    Crear / Eliminar / Completar Tareas
+    ```
+    http://localhost:3000
+    ```
 
-        En la caja de texto escribir alguna tarea y dar click al botón "AGREGAR"
+### Crear / Eliminar / Completar Tareas
 
-        Dar click en el checkbox para completar la tarea
+1. En la caja de texto, escribe una tarea y haz clic en el botón **"AGREGAR"**.
 
-        Dar click en el botón con forma de (X) para eliminar una tarea
+2. Para marcar una tarea como completada, haz clic en el **checkbox** junto a la tarea.
 
-    Cerrar Servidor
+3. Para eliminar una tarea, haz clic en el botón con forma de **(X)** que aparece junto a la tarea.
 
-        En la consola que funciona el servidor pulsar: CTRL + C
+### Cerrar Servidor
+
+1. Para detener el servidor, ve a la consola donde está corriendo el servidor y presiona **CTRL + C**.
