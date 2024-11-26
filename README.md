@@ -38,7 +38,7 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas:
 
 2. Para marcar una tarea como completada, haz clic en el **checkbox** junto a la tarea.
 
-3. Para eliminar una tarea, haz clic en el botón con forma de **(X)** que aparece junto a la tarea.
+3. Para eliminar una tarea, haz clic en el botón ![Eliminar](public/img/msg_error-0.png) que aparece junto a la tarea.
 
 ### Cerrar Servidor
 
