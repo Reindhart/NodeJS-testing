@@ -34,11 +34,11 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas:
 
 ### Crear / Eliminar / Completar Tareas
 
-1. En la caja de texto, escribe una tarea y haz clic en el botón ![Agregar](AGREGAR.png) <img src="AGREGAR.png" alt="Agregar" width="30" />.
+1. En la caja de texto, escribe una tarea y haz clic en el botón  <img src="AGREGAR.png" alt="Agregar" width="70" />.
 
-2. Para marcar una tarea como completada, haz clic en el **checkbox** ![Checkbox](checkbox.png) junto a la tarea.
+2. Para marcar una tarea como completada, haz clic en el **checkbox** <img src="checkbox.png" alt="Agregar" width="20" /> junto a la tarea.
 
-3. Para eliminar una tarea, haz clic en el botón ![Eliminar](public/img/msg_error-0.png) que aparece junto a la tarea.
+3. Para eliminar una tarea, haz clic en el botón <img src="public/img/msg_error-0.png" alt="Agregar" width="20" /> que aparece junto a la tarea.
 
 ### Cerrar Servidor
 
