@@ -34,9 +34,9 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas:
 
 ### Crear / Eliminar / Completar Tareas
 
-1. En la caja de texto, escribe una tarea y haz clic en el botón **"AGREGAR"**.
+1. En la caja de texto, escribe una tarea y haz clic en el botón ![Agregar](AGREGAR.png).
 
-2. Para marcar una tarea como completada, haz clic en el **checkbox** junto a la tarea.
+2. Para marcar una tarea como completada, haz clic en el **checkbox** ![Checkbox](checkbox.png) junto a la tarea.
 
 3. Para eliminar una tarea, haz clic en el botón ![Eliminar](public/img/msg_error-0.png) que aparece junto a la tarea.
 
